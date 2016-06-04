@@ -15,6 +15,31 @@ export default class ReportAStudent extends Component {
 			<div>
 				<SSF>
 					<h1>Student Note</h1>
+
+					<div>
+						<select>
+							<option value={0}>Select a student</option>
+							<option value={1}>Adrienne Smith</option>
+							<option value={2}>Baily Potter</option>
+							<option value={3}>Benjamin Redwine</option>
+							<option value={4}>Catriona Murphy</option>
+							<option value={5}>Gregory Atwell</option>
+							<option value={6}>Jeremy Weiner</option>
+							<option value={7}>Jennifer Black</option>
+							<option value={8}>Jemma Smith</option>
+							<option value={9}>Justin Anderson</option>
+							<option value={10}>Meredith Fields</option>
+							<option value={11}>Mercedes Brie</option>
+							<option value={12}>Penelope Vasquez</option>
+							<option value={13}>Peter Gregory</option>
+							<option value={14}>Sarah-Beth Campbell</option>
+							<option value={15}>Sarah Monniot-Gailles</option>
+							<option value={16}>Vanessa Holmes</option>
+							<option value={17}>Wyatt Ryan</option>
+							<option value={18}>Wendell Chopin</option>
+						</select>
+					</div>
+
 					<p>Select a concern:</p>
 					<div>
 						<label>
