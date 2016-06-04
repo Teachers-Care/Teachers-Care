@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory, IndexRoute } from 'react-router';
+import { Link, Router, Route, hashHistory, IndexRoute } from 'react-router';
 import { ajax, ajaxSetup } from 'jquery';
 
 export default class Heading extends Component {
@@ -10,6 +10,7 @@ export default class Heading extends Component {
 			<div className="heading">
 				<div><h1>Teachers CARE</h1></div>
 				<div>100% anonymous tip-line.</div>
+				<Link to="/admin">Admin?</Link>
 
 					{this.props.children}
 

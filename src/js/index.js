@@ -3,10 +3,12 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 import { ajax, ajaxSetup } from 'jquery';
+
 import Heading from './heading';
 import Home from './home';
 import ReportAStudent from './report-a-student';
 import ThankYou from './thank-you';
+import Admin from './admin';
 
 ReactDOM.render((
 	<Router history={hashHistory}>
@@ -14,7 +16,8 @@ ReactDOM.render((
     <Route path="/thank-you" component={ThankYou}/>
 
 			<IndexRoute component={Home} />
-			<Route path="/report-a-student" component={ReportAStudent} />
+        <Route path="/report-a-student" component={ReportAStudent} />
+			  <Route path="/admin" component={Admin} />
 		</Route>
 	</Router>
 	), document.querySelector('.app'));
