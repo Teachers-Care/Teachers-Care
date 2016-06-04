@@ -15,6 +15,7 @@ export default class Home extends Component {
 				<Link to="/report-a-student">Report Anonymously</Link>
 
 				<Link to="/thank-you">Go To Thank You Page</Link>
+				
 			</div>
 
 		)
