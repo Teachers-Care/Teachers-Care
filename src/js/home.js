@@ -16,6 +16,7 @@ export default class Home extends Component {
 				<img src="http://fillmurray.com/50/50"/>
 
 				<Link to="/report-a-student">Report Anonymously</Link>
+				<Link to="/thank-you">Report Anonymously</Link>
 
 			</div>
 
