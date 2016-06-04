@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory, IndexRoute } from 'react-router';
+import { Link, Router, Route, hashHistory, IndexRoute } from 'react-router';
 import { ajax, ajaxSetup } from 'jquery';
 import SSF from 'react-simple-serial-form';
 import Heading from './heading';
@@ -107,7 +107,8 @@ export default class ReportAStudent extends Component {
 							<input type="text" />
 						</label>
 					</div>
-					<button>Submit Anonymously</button>
+					
+					<Link to="/thank-you">Submit Anonymously</Link>
 				</SSF>
 			</div>
 		)
