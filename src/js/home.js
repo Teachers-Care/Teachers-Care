@@ -13,7 +13,8 @@ export default class Home extends Component {
 				<div>Teachers Care</div>
 				<img src="http://fillmurray.com/50/50"/>
 				<Link to="/report-a-student">Report Anonymously</Link>
-				<Link to="/thank-you">Report Anonymously</Link>
+
+				<Link to="/thank-you">Go To Thank You Page</Link>
 			</div>
 
 		)
