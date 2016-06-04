@@ -13,7 +13,7 @@ export default class Heading extends Component {
 
 					{this.props.children}
 
-				<footer>&copy 2016.</footer>
+				<footer>&copy; 2016</footer>
 			</div>
 		)
 	}
