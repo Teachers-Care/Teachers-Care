@@ -1,5 +1,5 @@
-[
-  {
+
+  let Adrienne = {
     "_id": "57532ac05d741643355f6846",
     "index": 0,
     "picture": "http://placehold.it/32x32",
@@ -341,8 +341,8 @@
         "registered": "Sunday, September 20, 2015 12:51 PM"
       }
     ]
-  },
-  {
+  };
+  let Baily = {
     "_id": "57532ac000e6f3848d8842d4",
     "index": 1,
     "picture": "http://placehold.it/32x32",
@@ -684,8 +684,8 @@
         "registered": "Tuesday, October 13, 2015 6:45 PM"
       }
     ]
-  },
-  {
+  };
+  let Benjamin = {
     "_id": "57532ac0b9d292d69a96f204",
     "index": 2,
     "picture": "http://placehold.it/32x32",
@@ -1027,8 +1027,8 @@
         "registered": "Friday, June 20, 2014 6:04 PM"
       }
     ]
-  },
-  {
+  };
+  let Catriona = {
     "_id": "57532ac0952a74d58b9be8b6",
     "index": 3,
     "picture": "http://placehold.it/32x32",
@@ -1370,8 +1370,8 @@
         "registered": "Thursday, April 14, 2016 7:20 PM"
       }
     ]
-  },
-  {
+  };
+  let Gregory = {
     "_id": "57532ac0b2347a36055ab853",
     "index": 4,
     "picture": "http://placehold.it/32x32",
@@ -1713,8 +1713,8 @@
         "registered": "Monday, March 16, 2015 8:48 PM"
       }
     ]
-  },
-  {
+  };
+  let Jeremy = {
     "_id": "57532ac0c460ffafa50bc25b",
     "index": 5,
     "picture": "http://placehold.it/32x32",
@@ -2056,8 +2056,8 @@
         "registered": "Monday, September 29, 2014 1:59 PM"
       }
     ]
-  },
-  {
+  };
+  let Jennifer = {
     "_id": "57532ac058ed85928c4fbd61",
     "index": 6,
     "picture": "http://placehold.it/32x32",
@@ -2399,8 +2399,8 @@
         "registered": "Friday, July 24, 2015 10:19 PM"
       }
     ]
-  },
-  {
+  };
+  let Jemma = {
     "_id": "57532ac0c105e9832f825e98",
     "index": 7,
     "picture": "http://placehold.it/32x32",
@@ -2742,8 +2742,8 @@
         "registered": "Thursday, July 16, 2015 1:17 AM"
       }
     ]
-  },
-  {
+  };
+  let Justin = {
     "_id": "57532ac0d84db8cd1530a724",
     "index": 8,
     "picture": "http://placehold.it/32x32",
@@ -3085,8 +3085,8 @@
         "registered": "Friday, February 7, 2014 7:43 PM"
       }
     ]
-  },
-  {
+  };
+  let Meredith = {
     "_id": "57532ac054c29d7bf7869692",
     "index": 9,
     "picture": "http://placehold.it/32x32",
@@ -3428,8 +3428,8 @@
         "registered": "Thursday, March 24, 2016 9:23 AM"
       }
     ]
-  },
-  {
+  };
+  let Mercedes = {
     "_id": "57532ac02c6e7c3bfd0b332e",
     "index": 10,
     "picture": "http://placehold.it/32x32",
@@ -3771,8 +3771,8 @@
         "registered": "Sunday, December 7, 2014 12:19 PM"
       }
     ]
-  },
-  {
+  };
+  let Penelope = {
     "_id": "57532ac02cb8f2f88b8a5afe",
     "index": 11,
     "picture": "http://placehold.it/32x32",
@@ -4114,8 +4114,8 @@
         "registered": "Monday, June 22, 2015 5:10 PM"
       }
     ]
-  },
-  {
+  };
+  let Peter = {
     "_id": "57532ac03b7d65057ae9491c",
     "index": 12,
     "picture": "http://placehold.it/32x32",
@@ -4457,8 +4457,8 @@
         "registered": "Saturday, May 9, 2015 5:12 PM"
       }
     ]
-  },
-  {
+  };
+  let SarahBeth = {
     "_id": "57532ac0a43ccd5279cbe584",
     "index": 13,
     "picture": "http://placehold.it/32x32",
@@ -4800,8 +4800,8 @@
         "registered": "Friday, March 4, 2016 2:55 AM"
       }
     ]
-  },
-  {
+  };
+  let Sarah = {
     "_id": "57532ac00d334c18656df25c",
     "index": 14,
     "picture": "http://placehold.it/32x32",
@@ -5143,8 +5143,8 @@
         "registered": "Monday, February 29, 2016 8:15 PM"
       }
     ]
-  },
-  {
+  };
+  let Vanessa = {
     "_id": "57532ac09252083f341e4864",
     "index": 15,
     "picture": "http://placehold.it/32x32",
@@ -5486,8 +5486,8 @@
         "registered": "Tuesday, April 7, 2015 2:15 AM"
       }
     ]
-  },
-  {
+  };
+  let Wyatt = {
     "_id": "57532ac0c83903be2352d97d",
     "index": 16,
     "picture": "http://placehold.it/32x32",
@@ -5829,8 +5829,8 @@
         "registered": "Saturday, December 19, 2015 1:15 PM"
       }
     ]
-  },
-  {
+  };
+  let Wendell = {
     "_id": "57532ac022f379a8e01f3eab",
     "index": 17,
     "picture": "http://placehold.it/32x32",
@@ -6172,5 +6172,27 @@
         "registered": "Friday, January 31, 2014 10:28 AM"
       }
     ]
-  }
-]
+  };
+
+
+export default [
+  Adrienne, 
+  Baily, 
+  Benjamin, 
+  Catriona, 
+  Gregory, 
+  Jeremy, 
+  Jennifer, 
+  Jemma, 
+  Justin, 
+  Meredith, 
+  Mercedes, 
+  Penelope, 
+  Peter, 
+  SarahBeth, 
+  Sarah, 
+  Vanessa, 
+  Wyatt, 
+  Wendell
+  ];
+
