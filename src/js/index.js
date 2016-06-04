@@ -1,1 +1,17 @@
 // Javascript Entry Point
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import { Router, Route, hashHistory, IndexRoute } from 'react-router';
+import { ajax, ajaxSetup } from 'jquery';
+import Heading from './heading';
+import Home from './home';
+import ReportAStudent from './report-a-student';
+
+ReactDOM.render((
+	<Router history={hashHistory}>
+		<Route path="/" component={Heading}>
+			<IndexRoute component={Home} />
+			<Route path="/report-a-student" component={ReportAStudent} />
+		</Route>
+	</Router>
+	), document.querySelector('.app'));
