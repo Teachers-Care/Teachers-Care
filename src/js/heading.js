@@ -7,7 +7,7 @@ export default class Heading extends Component {
 
 	render(){
 		return(
-			<div>
+			<div className="heading">
 				<div><h1>*Heading*</h1></div>
 				<div>*This heading appears on every view*</div>
 
