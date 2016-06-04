@@ -12,6 +12,7 @@ export default class Home extends Component {
 			<div className="home">
 				<img src="../images/helping-hand.jpg"/>
 				<Link to="/report-a-student">Report Anonymously</Link>
+
 			</div>
 
 		)
