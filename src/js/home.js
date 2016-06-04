@@ -9,11 +9,11 @@ export default class Home extends Component {
 
 		return(
 
-			<div>
+			<div className="home">
 				
-				<div>TEACHERS-Care</div>
+				<div>Teachers Care</div>
 
-				<img src="fillmurray.com/50/50" />
+				<img src="http://fillmurray.com/50/50"/>
 
 				<Link to="/report-a-student">Report Anonymously</Link>
 
