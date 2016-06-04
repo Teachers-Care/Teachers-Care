@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 import { ajax, ajaxSetup } from 'jquery';
-import { Heading } from './heading';
-import { Home } from './home';
+import SSF from 'react-simple-serial-form';
+import Heading from './heading';
+import Home from './home';
 
 export default class ReportAStudent extends Component {
 
@@ -14,48 +15,99 @@ export default class ReportAStudent extends Component {
 			<div>
 				<SSF>
 					<h1>Student Note</h1>
-					<p>Select a concern and submit anonymously.</p>
-					<label>
-						(1)
-						<input type="checkbox" />
-						Is dating a significantly older person.
-					</label>
-					<label>
-						(2)
-						<input type="checkbox" />
-						Frequently travels with an older person who is not their guardian.
-					</label>
-					<label>
-						(3)
-						<input type="checkbox" />
-						Freqently absent from class. 
-					</label>
-					<label>
-						(4)
-						<input type="checkbox" />
-						Suddenly changed appearance or style, especially if of a provocative nature.
-					</label>
-					<label>
-						(5)
-						<input type="checkbox" />
-						Frequently travels with an older person who is not their guardian.
-					</label>
-					<label>
-						(6)
-						<input type="checkbox" />
-						Frequently travels with an older person who is not their guardian.
-					</label>
-					<label>
-						(7)
-						<input type="checkbox" />
-						Frequently travels with an older person who is not their guardian.
-					</label>
-					<label>
-						(8)
-						<input type="checkbox" />
-						Frequently travels with an older person who is not their guardian.
-					</label>
-					<button>Submit</button>
+					<p>Select a concern:</p>
+					<div>
+						<label>
+							<input type="checkbox" />
+							Is dating a significantly older person.
+						</label>
+					</div>
+					
+					<div>
+						<label>
+							<input type="checkbox" />
+							Frequently travels with an older male or person who is not their guardian.
+						</label>
+					</div>
+					
+					<div>
+						<label>
+							<input type="checkbox" />
+							Is labeled as a chronic runaway or has multiple delinquent charges.
+						</label>
+					</div>
+					
+					<div>
+						<label>
+							<input type="checkbox" />
+							Has, or is currently experiencing homelessness.
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input type="checkbox" />
+							Has special marked tattoos, or branding on his/her body.
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input type="checkbox" />
+							Has chronic unexplained truancy.  
+						</label>
+					</div>
+					
+					<div>
+						<label>
+							<input type="checkbox" />
+							Has started accumulating new clothes, shoes, and/or jewelry that he/she can’t account for. Includes cell phones, luxury items or an increase in income.
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input type="checkbox" />
+							Has suddenly changed his/her appearance such as dressing more provocatively.
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input type="checkbox" />
+							Has an explicitly sexual online profile found on internet community sites, internet classified ads, and/or social media sites. Or finds them looking at these things.
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input type="checkbox" />
+							Has multiple or frequent Sexually Transmitted Diseases/Infections.
+
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input type="checkbox" />
+							 Has multiple pregnancies or termination of pregnancies.
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input type="checkbox" />
+							 Is in foster care or involved with CPS.
+						</label>
+					</div>
+
+					<div>
+						<label>
+							 Other:
+							<input type="text" />
+						</label>
+					</div>
+					<button>Submit Anonymously</button>
 				</SSF>
 			</div>
 		)
