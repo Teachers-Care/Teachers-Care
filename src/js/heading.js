@@ -8,7 +8,7 @@ export default class Heading extends Component {
 	render(){
 		return(
 			<div className="heading">
-				<div><h1>Teachers CARE</h1></div>
+				<div><h1>A Helping Hand</h1></div>
 				<div>100% anonymous tip-line.</div>
 
 					{this.props.children}
