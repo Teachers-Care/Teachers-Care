@@ -8,12 +8,12 @@ export default class Heading extends Component {
 	render(){
 		return(
 			<div className="heading">
-				<div><h1>*Heading*</h1></div>
-				<div>*This heading appears on every view*</div>
+				<div><h1>Teachers CARE</h1></div>
+				<div>100% anonymous tip-line.</div>
 
 					{this.props.children}
 
-				<footer>*Footer: This footer appears on every view*</footer>
+				<footer>&copy 2016.</footer>
 			</div>
 		)
 	}

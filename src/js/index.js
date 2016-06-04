@@ -3,13 +3,10 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 import { ajax, ajaxSetup } from 'jquery';
-
 import Heading from './heading';
 import Home from './home';
 import ReportAStudent from './report-a-student';
 import ThankYou from './thank-you';
-
-
 
 ReactDOM.render((
 	<Router history={hashHistory}>
