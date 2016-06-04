@@ -4,19 +4,99 @@
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
 // EXTEND * PSD * Work off of constants * Global vars * 
+$deep-blue: #05668D;
+$sea-blue: #028090;
+$turquoise: #00A896;
+$teal: #02C39A;
+$sand: #F0F3BD;
+
+@mixin big-button{
+	font-size: 3em;
+	color: white;
+	background-color: $sea-blue;
+	border-radius: 5px;
+	border: none;
+	padding: 15px;
+	margin: 10px;
+}
+
+@mixin small-button{
+	font-size: .80em;
+	color: white;
+	background-color: darken($sea-blue, 20%);
+	border-radius: 5px;
+	border: none;
+	padding: 15px;
+	margin: 10px;	
+}
 
 *{
 	box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+////////// Buttons /////////////////
+.big-button {
+	@include big-button;
 }
 
-img{
-	width: 550px;
-	height: 450px;
+.small-button {
+	@include small-button;
 }
-
-.home{
-	background-color: pink;
+////////// Heading /////////////////
+.heading{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	background-color: $teal;
+	h1 {
+		font-family: 'Walter Turncoat', cursive;
+		font-size: 5em;
+	}
 }
+
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+////////// Home ////////////////////
+.home{
+	background-color: $teal;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+img{
+	width: 30%;
+	border-radius: 100%;
+	margin: 10px;
+}
+////////// Report a student ////////
+.report {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 4px solid $deep-blue;
+	border-radius: 10px;
+	background-color: $sand;
+	width: 60%;
+}
+
+.title-student-note {
+	text-align: center;
+}
+
+.SSF-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+////////// Thank You ///////////////
