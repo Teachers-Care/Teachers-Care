@@ -9,12 +9,14 @@ export default class Heading extends Component {
 		return(
 			<div className="heading">
 				<div><h1>A Helping Hand</h1></div>
-				<div>100% anonymous tip-line.</div>
-				<Link to="/admin">Admin?</Link>
+				<div><h2>100% anonymous tip-line.</h2></div>
 
 					{this.props.children}
 
-				<footer>&copy; 2016</footer>
+				<footer>
+						<div><Link to="/admin"><button className="small-button">For Administrators</button></Link></div>
+						<div>&copy; 2016</div>
+				</footer>
 			</div>
 		)
 	}
