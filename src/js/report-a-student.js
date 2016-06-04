@@ -12,13 +12,17 @@ export default class ReportAStudent extends Component {
 		return(
 
 			<div>
-				<div>Report A Student Form</div>
+				<SSF>
+					<div>Report A Student Form</div>
 
-				<div>Student Name</div>
+					<div>Student Name</div>
 
-				<div>Grade</div>
+					<div>Grade</div>
 
-				<div>Form </div>
+					<div>Form </div>
+					
+					<button>Submit</button>
+				</SSF>
 			</div>
 		)
 	}
