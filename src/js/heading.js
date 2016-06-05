@@ -20,7 +20,7 @@ export default class Heading extends Component {
 						<div><Link to="/resources"><button className="small-button">Additional Resources</button></Link></div>
 						<div><Link to="/admin"><button className="small-button">For Administrators</button></Link></div>
 					</div>
-					<div>&copy; 2016</div>
+					<div className="copyright">&copy; 2016</div>
 				</footer>
 			</div>
 		)

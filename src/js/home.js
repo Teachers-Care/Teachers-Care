@@ -8,7 +8,6 @@ export default class Home extends Component {
 	render(){
 
 		return(
-
 			<div className="home">
 				<img src="../images/helping-hand.jpg"/>
 				<Link to="/report-a-student">
@@ -16,11 +15,8 @@ export default class Home extends Component {
 						Report Now
 					</button>
 				</Link>
-			</div>
-			
+			</div>	
 		)
 	}
 }
-
-// <div><Link to="/admin"><button className="small-button">For Administrators</button></Link></div>
 

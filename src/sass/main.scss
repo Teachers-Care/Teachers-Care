@@ -2,7 +2,6 @@
 // Turn on freq used libraries
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
-// EXTEND * PSD * Work off of constants * Global vars * 
 $deep-blue: #05668D;
 $sea-blue: #028090;
 $turquoise: #00A896;
@@ -72,6 +71,10 @@ footer{
 		flex-direction: row;
 		justify-content: center;
 	}
+	.copyright {
+		margin: 15px 0 15px 0;
+		font-size: .75em;
+	}
 }
 ////////// Home ////////////////////
 .home{
@@ -80,12 +83,15 @@ footer{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	h2 {
+		margin-top: -10px;
+	}
 }
 
 img{
 	width: 30%;
 	border-radius: 100%;
-	margin: 10px;
+	margin: 15px;
 }
 ////////// Report a student ////////
 .report {
@@ -121,5 +127,25 @@ img{
 	align-items: center;
 	div, h2, p, iframe {
 		margin: 5px;
+	}
+	iframe {
+		border-radius: 10px;
+		border: none;
+	}
+}
+////////// Resources ///////////////
+.resources {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 25%;
+	height: 300px;
+	div {
+		border-top: 3px solid black;
+		width: 50%;
+		height: 150px;
+		margin-top: 1%;
 	}
 }

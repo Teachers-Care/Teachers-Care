@@ -11,7 +11,6 @@ export default class ThankYou extends Component {
       <div className="thank-you">
           <div><h2>You're making a difference!</h2></div>
 
-          <div><p>Thank you for participating in the Teachers CARE initiative.</p></div>
           <div><p>Your participation brings us one step closer to eliminating child predators.</p></div>
           
           <div>
@@ -20,9 +19,6 @@ export default class ThankYou extends Component {
             </iframe>
           </div>
       </div>
-
     )
   }
 }
-
-// <Link to="/resources">Additional Resources</Link>
