@@ -22,7 +22,7 @@ export default class Heading extends Component {
 					{/*</div>*/}
 				</div>
 
-				<div className="tagline"><h2>Help students get the help they need.</h2></div>
+				<div className="tagline"><h2>Crowdsourced guardianship in the school community.</h2></div>
 
 					{this.props.children}
 				<footer>
