@@ -14,7 +14,6 @@ export default class Heading extends Component {
 					{this.props.children}
 
 				<footer>
-						<div><Link to="/admin"><button className="small-button">For Administrators</button></Link></div>
 						<div>&copy; 2016</div>
 				</footer>
 			</div>
