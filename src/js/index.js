@@ -9,6 +9,7 @@ import Home from './home';
 import ReportAStudent from './report-a-student';
 import ThankYou from './thank-you';
 import Admin from './admin';
+import Resources from './resources';
 
 ReactDOM.render((
 	<Router history={hashHistory}>
@@ -17,6 +18,7 @@ ReactDOM.render((
         <Route path="/report-a-student" component={ReportAStudent}  />
 			  <Route path="/admin" component={Admin} />
         <Route path="/thank-you" component={ThankYou}/>
+        <Route path="/resources" component={Resources}/>
 		</Route>
 	</Router>
 	), document.querySelector('.app'));

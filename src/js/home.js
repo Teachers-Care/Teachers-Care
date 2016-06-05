@@ -24,4 +24,3 @@ export default class Home extends Component {
 	}
 }
 
-// <Link to="/thank-you">Go To Thank You Page</Link>
