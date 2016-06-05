@@ -22,6 +22,8 @@ export default class Heading extends Component {
 					</div>
 				</div>
 
+				<div className="logged-in"><h3>Carter Middle School, Atlanta, GA</h3></div>
+
 				<div className="tagline"><h2>Crowdsourced guardianship in the school community.</h2></div>
 
 					{this.props.children}

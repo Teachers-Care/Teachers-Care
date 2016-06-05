@@ -64,7 +64,7 @@ export default class Admin extends Component {
         <table className="table">
           <thead>
 
-            <tr>
+            <tr className="top-row">
                 <th data-field="id">First Name</th>
                 <th data-field="id">Last Name</th>
                 <th data-field="grade">Grade</th>
@@ -74,44 +74,44 @@ export default class Admin extends Component {
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr className="row">
               <td>Tabitha</td>
               <td>Carter</td>
               <td>5th</td>
-              <td>April 24th 2016</td>
+              <td>April 24, 2016</td>
               <td>Dating, Travel, Runaway</td>
             </tr>
 
-            <tr>
+            <tr className="row">
               <td>Castillo</td>
               <td>Campos</td>
               <td>6th</td>
-              <td>March 23, 2016</td>
+              <td>May 11, 2016</td>
               <td>Travel, Homeless, Tattoo</td>
             </tr>
 
-            <tr>
+            <tr className="row">
               <td>Flores</td>
               <td>Pace</td>
               <td>7th</td>
-              <td>September, 2 2016</td>
+              <td>May 14, 2016</td>
               <td>Runaway, Truant, Provocative, Explicit-Online</td>
             </tr>
 
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+            <tr className="row">
+              <td>David</td>
+              <td>Mathews</td>
+              <td>6th</td>
+              <td>May 18, 2016</td>
+              <td>Explicit-Online, Travel, STI</td>
             </tr>
 
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+            <tr className="row">
+              <td>Alice</td>
+              <td>Brown</td>
+              <td>7th</td>
+              <td>may 19, 2016</td>
+              <td>Pregancy</td>
             </tr>
 
             <tr>
