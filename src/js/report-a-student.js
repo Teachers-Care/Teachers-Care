@@ -140,6 +140,8 @@ export default class ReportAStudent extends Component {
 					
 					<div><Link to="/thank-you"><button className="big-button">Submit Anonymously</button></Link></div>
 				</SSF>
+				<div><Link to="/admin"><button className="small-button">For Administrators</button></Link></div>
+
 			</div>
 		)
 	}
