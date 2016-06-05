@@ -89,8 +89,16 @@ export default class Admin extends Component {
               <td>Alice</td>
               <td>Brown</td>
               <td>7th</td>
-              <td>may 19, 2016</td>
-              <td>Pregancy</td>
+              <td>May 19, 2016</td>
+              <td>Pregnancy</td>
+            </tr>
+
+            <tr className="row">
+              <td>Gregory</td>
+              <td>Smith</td>
+              <td>6th</td>
+              <td>May 21, 2016</td>
+              <td>Provocative, Travel</td>
             </tr>
 
             </tbody>
