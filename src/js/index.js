@@ -13,7 +13,7 @@ import Admin from './admin';
 ReactDOM.render((
 	<Router history={hashHistory}>
 		<IndexRoute component={Home} />
-		<Route path="/" component={Heading} />
+		<Route path="/heading" component={Heading} />
     	<Route path="/thank-you" component={ThankYou}/>
         <Route path="/report-a-student" component={ReportAStudent} />
 		<Route path="/admin" component={Admin} />
