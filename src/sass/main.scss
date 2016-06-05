@@ -2,7 +2,6 @@
 // Turn on freq used libraries
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
-// EXTEND * PSD * Work off of constants * Global vars * 
 $deep-blue: #05668D;
 $sea-blue: #028090;
 $turquoise: #00A896;
@@ -55,6 +54,7 @@ body {
 	@include small-button;
 }
 ////////// Heading /////////////////
+
 .heading {
 	// display: flex;
 	// flex-direction: column;
@@ -83,8 +83,12 @@ h1 {
 	}
 
 .header {
-	display: flex;
 
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 footer{
@@ -92,6 +96,15 @@ footer{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	.footer-button-bar {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.copyright {
+		margin: 15px 0 15px 0;
+		font-size: .75em;
+	}
 }
 
 a {
@@ -110,11 +123,6 @@ a {
 	}
 }
 
-img{
-	// width: 30%;
-	// border-radius: 100%;
-	
-}
 ////////// Report a student ////////
 .report {
 	display: flex;
@@ -126,6 +134,9 @@ img{
 	background-color: $sand;
 	width: 60%;
 	margin-top: 3%;
+	.SSF-div, div, h2, label, select, option {
+		margin: 5px;
+	}
 }
 
 .title-student-note {
@@ -139,15 +150,33 @@ img{
 	align-items: center;
 }
 ////////// Thank You ///////////////
-
 .thank-you {
-	h2 {
-		font-size: 5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	div, h2, p, iframe {
+		margin: 5px;
+	}
+	iframe {
+		border-radius: 10px;
+		border: none;
 	}
 }
-
-
-
-
-
+////////// Resources ///////////////
+.resources {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 25%;
+	height: 300px;
+	div {
+		border-top: 3px solid black;
+		width: 50%;
+		height: 150px;
+		margin-top: 1%;
+	}
+}
 

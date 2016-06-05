@@ -10,6 +10,7 @@ export default class ThankYou extends Component {
     return(
       <div className="thank-you">
 
+
           <h2>You're making a difference!</h2>
 
           <p>Thank you for participating in the Teachers CARE initiative. Your participation brings us one step closer to eliminating child pretators.</p>
@@ -19,7 +20,6 @@ export default class ThankYou extends Component {
           </iframe>
 
           <Link to="/resources">Additional Resources</Link>
-
 
         </div>
 
