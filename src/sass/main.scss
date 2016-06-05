@@ -62,7 +62,7 @@ body {
 	// align-items: center;
 	// height: 100vh;
 		.logo-wrapper {
-			display: inline;
+			
 			.logo {
 				margin: 10px;
 				width: 8%;
@@ -77,22 +77,12 @@ body {
 	
 }
 
-.app-name {
-	display: inline;
-	h1 {
+h1 {
 	font-family: 'Walter Turncoat', cursive;
 	font-size: 5em;
-	display: inline;
 	}
-}
-
-
 
 .header {
-	text-align: center;
-}
-
-.tagline {
 	text-align: center;
 }
 
@@ -120,7 +110,6 @@ footer{
 a {
 	text-decoration: none;
 }
-
 ////////// Home ////////////////////
 .home{
 	// background-color: $teal;
@@ -133,8 +122,6 @@ a {
 		border-radius: 100%;
 	}
 }
-
-
 
 ////////// Report a student ////////
 .report {
