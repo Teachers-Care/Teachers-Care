@@ -16,13 +16,13 @@ export default class Heading extends Component {
 						</Link>
 					</div>
 
-					<div>
+					<div className="app-name">
 							<h1>A Helping Hand</h1>
 					</div>
 
 				</div>
 
-				<div><h2>Help students get the help they need.</h2></div>
+				<div className="tagline"><h2>Help students get the help they need.</h2></div>
 
 					{this.props.children}
 				<footer>
