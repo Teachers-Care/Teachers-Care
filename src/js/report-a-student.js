@@ -14,7 +14,7 @@ export default class ReportAStudent extends Component {
 
 			<div className="report">
 		
-				<SSF className="SSF-div">
+				<SSF className="SSF-div" onData={x=>x}>
 					
 					<div><h2>Student Note</h2></div>
 					
