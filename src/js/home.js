@@ -16,11 +16,11 @@ export default class Home extends Component {
 						Report Now
 					</button>
 				</Link>
-				<div><Link to="/admin"><button className="small-button">For Administrators</button></Link></div>
-
 			</div>
 			
 		)
 	}
 }
+
+// <div><Link to="/admin"><button className="small-button">For Administrators</button></Link></div>
 

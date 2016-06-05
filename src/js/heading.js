@@ -13,9 +13,13 @@ export default class Heading extends Component {
 						<h1>A Helping Hand</h1>
 					</Link>
 				</div>
-				<div><h2>100% anonymous tip-line.</h2></div>
+				<div><h2>Help students get the help they need.</h2></div>
 					{this.props.children}
 				<footer>
+					<div className="footer-button-bar">
+						<div><Link to="/resources"><button className="small-button">Additional Resources</button></Link></div>
+						<div><Link to="/admin"><button className="small-button">For Administrators</button></Link></div>
+					</div>
 					<div>&copy; 2016</div>
 				</footer>
 			</div>

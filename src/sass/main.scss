@@ -57,11 +57,21 @@ $sand: #F0F3BD;
 	}
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 footer{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	.footer-button-bar {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
 }
 ////////// Home ////////////////////
 .home{
@@ -104,3 +114,12 @@ img{
 	align-items: center;
 }
 ////////// Thank You ///////////////
+.thank-you {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	div, h2, p, iframe {
+		margin: 5px;
+	}
+}

@@ -9,20 +9,20 @@ export default class ThankYou extends Component {
   render() {
     return(
       <div className="thank-you">
+          <div><h2>You're making a difference!</h2></div>
 
-          <h1>You're making a difference!</h1>
+          <div><p>Thank you for participating in the Teachers CARE initiative.</p></div>
+          <div><p>Your participation brings us one step closer to eliminating child predators.</p></div>
+          
+          <div>
+            <iframe 
+              src="https://www.youtube.com/embed/vGgDj-xZJ7o">
+            </iframe>
+          </div>
+      </div>
 
-          <p>Thank you for participating in the Teachers CARE initiative. Your participation brings us one step closer to eliminating child pretators.</p>
-
-          <iframe 
-            src="https://www.youtube.com/embed/vGgDj-xZJ7o">
-          </iframe>
-
-          <Link to="/resources">Additional Resources</Link>
-
-
-        </div>
-
-      )
+    )
   }
 }
+
+// <Link to="/resources">Additional Resources</Link>
