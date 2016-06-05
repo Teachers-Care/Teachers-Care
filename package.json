@@ -38,6 +38,7 @@
     "materialize": "^1.0.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "react-modal-dialog": "^3.0.1",
     "react-simple-serial-form": "^1.0.0"
   }
 }

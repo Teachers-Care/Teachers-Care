@@ -64,8 +64,8 @@ body {
 	// justify-content: center;
 	// align-items: center;
 	// height: 100vh;
-		.logo-wrapper {
-			display: inline;
+		// .logo-wrapper {
+		// 	display: inline;
 			.logo {
 				margin: 10px;
 				width: 8%;
@@ -75,20 +75,34 @@ body {
 				text-decoration: none;
 
 			}
+<<<<<<< HEAD
 		}
 
 
-}
+=======
+		// }
 
-h1 {
-	font-family: 'Walter Turncoat', cursive;
-	font-size: 5em;
-	}
+
+>>>>>>> 1a733632c5ca530595fc3b56f9c3771f3f642795
+}
 
 .header {
+	// text-align: center;
+	// display: flex;
+	display: inline-block;
 	text-align: center;
+	// flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+	div {
+		display: inline;
+	}
+	a {
+		display: inline;
+	}
 }
 
+<<<<<<< HEAD
 .app-name {
 	display: inline;
  	h1 {
@@ -97,6 +111,17 @@ h1 {
  		display: inline;
   	}
  }
+=======
+// .app-name {
+// 	display: inline;
+ 	h1 {
+  	font-family: 'Walter Turncoat', cursive;
+  	font-size: 5em;
+ 		display: inline;
+ 		vertical-align: bottom;
+  	}
+ // }
+>>>>>>> 1a733632c5ca530595fc3b56f9c3771f3f642795
 
  .tagline {
  	text-align: center;
@@ -183,16 +208,31 @@ a {
 ////////// Resources ///////////////
 .resources {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	align-content: center;
 	flex-wrap: wrap;
-	width: 25%;
+	width: 40%;
 	height: 300px;
-	div {
-		border-top: 3px solid black;
-		width: 50%;
-		height: 150px;
-		margin-top: 1%;
+	margin: 20px auto;
+	.resource-item {
+		border: 3px solid black;
+		border-radius: 10px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 15px;
+	}
+	img{
+		height: 100px;
+		width: 200px;
 	}
 }
+////////// Admin ///////////////
+// .admin {
+// 	display: inline-block;
+// 	background-color: #ccc;
+// }
