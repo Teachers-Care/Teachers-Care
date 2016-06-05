@@ -64,8 +64,8 @@ body {
 	// justify-content: center;
 	// align-items: center;
 	// height: 100vh;
-		// .logo-wrapper {
-		// 	display: inline;
+		.logo-wrapper {
+			display: inline;
 			.logo {
 				margin: 10px;
 				width: 8%;
@@ -75,6 +75,7 @@ body {
 				text-decoration: none;
 
 			}
+		}
 }
 
 .header {
@@ -84,7 +85,8 @@ body {
 	text-align: center;
 	// flex-direction: row;
 	justify-content: center;
-	margin: 0 0 2em 0;
+	// margin: 0 0 2em 0;
+	margin-left: 169px;
 
 	div {
 		display: inline;

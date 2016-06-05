@@ -10,16 +10,16 @@ export default class Heading extends Component {
 			<div className="heading">
 				<div className="header">
 
-					{/*<div className="app-name">*/}
-						<div><h1>A Helping Hand</h1></div>
-					{/*</div>*/}
+					<div className="app-name">
+						<h1>A Helping Hand</h1>
+					</div>
 					
-					{/*<div className="logo-wrapper">*/}
-						<div><Link to="/">
+					<div className="logo-wrapper">
+						<Link to="/">
 							<img className="logo" 
 									 src="./images/teachers-care-logo.png"/>
-						</Link></div>
-					{/*</div>*/}
+						</Link>
+					</div>
 				</div>
 
 				<div className="tagline"><h2>Crowdsourced guardianship in the school community.</h2></div>
