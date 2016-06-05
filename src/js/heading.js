@@ -9,17 +9,17 @@ export default class Heading extends Component {
 		return(
 			<div className="heading">
 				<div className="header">
-					<div className="logo-wrapper">
-						<Link to="/">
+
+					{/*<div className="app-name">*/}
+						<div><h1>A Helping Hand</h1></div>
+					{/*</div>*/}
+					
+					{/*<div className="logo-wrapper">*/}
+						<div><Link to="/">
 							<img className="logo" 
 									 src="./images/teachers-care-logo.png"/>
-						</Link>
-					</div>
-
-					<div className="app-name">
-							<h1>A Helping Hand</h1>
-					</div>
-
+						</Link></div>
+					{/*</div>*/}
 				</div>
 
 				<div className="tagline"><h2>Help students get the help they need.</h2></div>

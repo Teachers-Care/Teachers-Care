@@ -61,8 +61,8 @@ body {
 	// justify-content: center;
 	// align-items: center;
 	// height: 100vh;
-		.logo-wrapper {
-			display: inline;
+		// .logo-wrapper {
+		// 	display: inline;
 			.logo {
 				margin: 10px;
 				width: 8%;
@@ -72,28 +72,36 @@ body {
 				text-decoration: none;
 			
 			}
-		}
+		// }
 	
 	
 }
-
-h1 {
-	font-family: 'Walter Turncoat', cursive;
-	font-size: 5em;
-	}
 
 .header {
+	// text-align: center;
+	// display: flex;
+	display: inline-block;
 	text-align: center;
+	// flex-direction: row;
+	justify-content: center;
+	margin: 0 auto;
+	div {
+		display: inline;
+	}
+	a {
+		display: inline;
+	}
 }
 
-.app-name {		
-	display: inline; 		
+// .app-name {		
+// 	display: inline; 		
  	h1 {		
   	font-family: 'Walter Turncoat', cursive;
   	font-size: 5em;		  	
- 		display: inline;		
+ 		display: inline;
+ 		vertical-align: bottom;		
   	}		  	
- }
+ // }
 
  .tagline {		
  	text-align: center;		
