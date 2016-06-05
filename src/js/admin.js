@@ -8,9 +8,9 @@ import data from './student-data.js';
 export default class Admin extends Component {
 
   getRisks(risk) {
-    console.log('hello');
 
     let { oneRisk } = data.reports.risks;
+
     return (
       <div className="risk-item">
         {oneRisk.riskID}
@@ -19,8 +19,8 @@ export default class Admin extends Component {
   }
 
   getReports(report) {
+    
     let { oneReport } = data.reports;
-    console.log('one report', oneReport);
 
     return (
       <div className="report-item">
@@ -34,27 +34,6 @@ export default class Admin extends Component {
 
       )
   }
-  // <table>
-  //   <thead>
-  //     <tr>
-  //         <th data-field="id">Name</th>
-  //         <th data-field="grade">Grade</th>
-  //         <th data-field="date">Dates</th>
-  //         <th data-field="Reports">Reports</th>
-  //     </tr>
-  //   </thead>
-
-  // getStudent(student) {
-  //   console.log('this is the getStudent function');
-  //   return (
-  //     <tr className="student-item" key={student._id}>
-  //       <td>{student.name.first}</td>
-  //       <td>{student.name.last}</td>
-  //       <td>{student.grade}th</td>
-  //       {/*<td>{student.reports.risks}</td>*/}
-  //     </tr>
-  //     )
-  // }
 
     render() {
 
@@ -113,136 +92,6 @@ export default class Admin extends Component {
               <td>may 19, 2016</td>
               <td>Pregancy</td>
             </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            {/*<tr>{data.map(this.getStudent)}</tr>*/}
 
             </tbody>
             </table>
