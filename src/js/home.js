@@ -10,7 +10,7 @@ export default class Home extends Component {
 		return(
 
 			<div className="home">
-				<img src="../images/helping-hand.jpg"/>
+				<img className="hero-image" src="../images/helping-hand.jpg"/>
 				<Link to="/report-a-student">
 					<button className="big-button">
 						Report Now
