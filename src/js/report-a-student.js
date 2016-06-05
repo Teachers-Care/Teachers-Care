@@ -14,6 +14,8 @@ export default class ReportAStudent extends Component {
 
 			<div className="report">
 		
+				{this.props.children}
+				
 				<SSF className="SSF-div" onData={x=>x}>
 					
 					<div><h2>Student Note</h2></div>
