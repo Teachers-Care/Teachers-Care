@@ -2,6 +2,9 @@
 // Turn on freq used libraries
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
+
+@import 'materialize.css'
+
 $deep-blue: #05668D;
 $sea-blue: #028090;
 $turquoise: #00A896;
@@ -25,11 +28,11 @@ $sand: #F0F3BD;
 	border-radius: 5px;
 	border: none;
 	padding: 15px;
-	margin: 10px;	
+	margin: 10px;
 }
 
 *{
-	box-sizing: border-box; 
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
@@ -70,12 +73,9 @@ body {
 
 			a {
 				text-decoration: none;
-			
+
 			}
-		// }
-	
-	
-}
+
 
 .header {
 	// text-align: center;
@@ -94,19 +94,23 @@ body {
 	}
 }
 
-// .app-name {		
-// 	display: inline; 		
- 	h1 {		
+<<<<<<< HEAD
+.app-name {
+	display: inline;
+ 	h1 {
   	font-family: 'Walter Turncoat', cursive;
-  	font-size: 5em;		  	
+  	font-size: 5em;
  		display: inline;
- 		vertical-align: bottom;		
-  	}		  	
- // }
+ 		vertical-align: bottom;
+
+  	}
+ }
+
 
  .tagline {		
  	text-align: center;	
  	margin: 0 0 2em 0;	
+
  }
 
 a {
@@ -214,5 +218,4 @@ a {
 		width: 200px;
 	}
 }
-
 

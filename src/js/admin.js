@@ -31,18 +31,25 @@ export default class Admin extends Component {
 
   //     )
   // }
+  // <table>
+  //   <thead>
+  //     <tr>
+  //         <th data-field="id">Name</th>
+  //         <th data-field="grade">Grade</th>
+  //         <th data-field="date">Dates</th>
+  //         <th data-field="Reports">Reports</th>
+  //     </tr>
+  //   </thead>
 
   getStudent(student) {
 
     return (
-      <div className="student-item" key={student._id}>
-        <div>{student.name.first}</div>
-        <div>{student.name.last}</div>
-        <div>{student.grade}th</div>
-        <div className="reports">
-          {/*{data.map(this.getReports)}*/}
-        </div>
-      </div>
+      <tr className="student-item" key={student._id}>
+        <td>{student.name.first}</td>
+        <td>{student.name.last}</td>
+        <td>{student.grade}th</td>
+        <td>{student.reports.risks}</td>
+      </tr>
       )
   }
 
@@ -51,14 +58,25 @@ export default class Admin extends Component {
       return(
 
         <div className="admin">
-          <div><h2>Student Notes</h2></div>
-          <div className="students-wrapper">
-            {data.map(this.getStudent)}
-            </div>
-          
+        <table>
+          <thead>
+            <tr>
+                <th data-field="id">First Name</th>
+                <th data-field="id">Last Name</th>
+                <th data-field="grade">Grade</th>
+                <th data-field="Reports">Reports</th>
+            </tr>
+          </thead>
+<tbody>
 
+
+            <tr >{data.map(this.getStudent)}</tr>
+
+            </tbody>
+            </table>
         </div>
 
     )
   }
 }
+  // </table>
