@@ -53,6 +53,7 @@ $sand: #F0F3BD;
 	h1 {
 		font-family: 'Walter Turncoat', cursive;
 		font-size: 5em;
+		text-decoration: none;
 	}
 }
 
@@ -87,6 +88,9 @@ img{
 	background-color: $sand;
 	width: 60%;
 	margin-top: 3%;
+	.SSF-div, div, h2, label, select, option {
+		margin: 5px;
+	}
 }
 
 .title-student-note {
