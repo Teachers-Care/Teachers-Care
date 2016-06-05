@@ -3,7 +3,7 @@
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
 
-@import 'materialize.css'
+@import 'materialize.css';
 
 $deep-blue: #05668D;
 $sea-blue: #028090;
@@ -75,7 +75,7 @@ body {
 				text-decoration: none;
 
 			}
-
+}
 
 .header {
 	// text-align: center;
@@ -94,7 +94,6 @@ body {
 	}
 }
 
-<<<<<<< HEAD
 .app-name {
 	display: inline;
  	h1 {
@@ -218,4 +217,17 @@ a {
 		width: 200px;
 	}
 }
+
+////////////// Admin ////////////////
+.admin {
+	width: 40%;
+  margin: auto;
+}
+
+.table {
+	background-color: $sand;
+}
+
+
+
 
