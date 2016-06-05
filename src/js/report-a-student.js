@@ -13,8 +13,6 @@ export default class ReportAStudent extends Component {
 		return(
 
 			<div className="report">
-		
-				{this.props.children}
 				
 				<SSF className="SSF-div" onData={x=>x}>
 					
