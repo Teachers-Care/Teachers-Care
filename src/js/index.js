@@ -12,12 +12,10 @@ import Admin from './admin';
 
 ReactDOM.render((
 	<Router history={hashHistory}>
-		<Route path="/" component={Heading}>
-    <Route path="/thank-you" component={ThankYou}/>
-
-			<IndexRoute component={Home} />
+		<IndexRoute component={Home} />
+		<Route path="/" component={Heading} />
+    	<Route path="/thank-you" component={ThankYou}/>
         <Route path="/report-a-student" component={ReportAStudent} />
-			  <Route path="/admin" component={Admin} />
-		</Route>
-	</Router>
-	), document.querySelector('.app'));
+		<Route path="/admin" component={Admin} />
+	</Router>), 
+	document.querySelector('.app'));

@@ -38,12 +38,11 @@ export default class Admin extends Component {
       <div className="student-item" key={student._id}>
         <div>{student.name.first}</div>
         <div>{student.name.last}</div>
-        <div>{student.grade}</div>
+        <div>{student.grade}th</div>
         <div className="reports">
           {/*{data.map(this.getReports)}*/}
         </div>
       </div>
-
       )
   }
 
@@ -52,7 +51,7 @@ export default class Admin extends Component {
       return(
 
         <div className="admin">
-          <div>Admin PAge</div>
+          <div><h2>Student Notes</h2></div>
           <div className="students-wrapper">
             {data.map(this.getStudent)}
             </div>
